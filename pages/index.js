@@ -11,7 +11,7 @@ export default function Home({ exploreData, cardData }) {
   return (
     <div>
       <Head>
-        <title>Airbnb | Lodge</title>
+        <title>Airbnb 2.0 | Lodge</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -37,7 +37,7 @@ export default function Home({ exploreData, cardData }) {
 
         <section>
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
-          <div className="flex space-x-3 p-3 -ml-3 overflow-scroll">
+          <div className="flex space-x-3 p-3 -ml-3 overflow-scroll scrollbar-hide">
             {cardData?.map(({ img, title }) => (
               <MediumCard key={img} img={img} title={title} />
             ))}
