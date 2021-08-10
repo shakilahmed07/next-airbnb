@@ -4,7 +4,8 @@ import Header from "../components/Header";
 import LargeCard from "../components/LargeCard";
 import MediumCard from "../components/MediumCard";
 import SingleCard from "../components/SingleCard";
-import SectionBanner from "../components/images/airbnb-section-banner.webp";
+// import SectionBanner from "../components/images/airbnb-section-banner.webp";
+import HostingBanner from "../components/images/airbnb-hosting-banner.webp";
 import Footer from "../components/Footer";
 
 export default function Home({ exploreData, cardData }) {
@@ -45,10 +46,10 @@ export default function Home({ exploreData, cardData }) {
         </section>
         {/* import LargeCard */}
         <LargeCard
-          img={SectionBanner}
-          title="The Greatest Outdoors"
-          description="Wishlist curated by Airbnb"
-          buttonText="Get Inspired"
+          img={HostingBanner}
+          title="Try Hosting"
+          description="Earn extra income and unlock new opportunities by sharing your space."
+          buttonText="Learn More"
         />
       </main>
       {/* Footer Section */}
